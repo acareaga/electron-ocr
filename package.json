@@ -1,25 +1,29 @@
 {
-  "name": "OCRad-Electron",
-  "version": "0.0.1",
-  "description": "An OCR render",
+  "name": "electron-ocr",
+  "version": "1.0.0",
+  "description": "Optical Character Recognition module for Electron Applications ",
   "main": "lib/main.js",
   "scripts": {
-    "start": "electron ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/acareaga/electron-ocr"
+    "url": "git+https://github.com/acareaga/electron-ocr.git"
   },
   "keywords": [
-    "electron",
-    "ocr"
+    "Electron",
+    "JavaScript",
+    "Optical",
+    "Character",
+    "Recognition",
+    "OCR"
   ],
-  "author": "Aaron Careaga & Jhun de Andres ",
+  "author": "Aaron Careaga <aaroncareaga@gmail.com> (http://www.aaroncareaga.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/acareaga/electron-ocr/issues"
   },
-  "homepage": "https://github.com/stevekinney/firesale-tutorial#readme",
+  "homepage": "https://github.com/acareaga/electron-ocr#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.36.7"
   },
