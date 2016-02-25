@@ -8,15 +8,19 @@
   </head>
   <body>
 
+    <script src="./ocrad.js"></script>
+    <script type="text/javascript"></script>
+
     <section class="controls">
       <button id="open-file">Open File</button>
+      <button id="read-file">Read File</button>
       <button id="save-file">Save Text</button>
     </section>
-
-    <section class="content">
-      <textarea class="imageView"></textarea>
-      <div class="translatedText"></div>
-    </section>
+    <br><br><br>
+    <!-- <section class="content"> -->
+      <canvas id="canvas" height="1200" width="1200" class="imageView"></canvas>
+      <div id="output" class="translatedText"></div>
+    <!-- </section> -->
 
   </body>
   <script>

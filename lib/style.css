@@ -21,7 +21,7 @@ body, input {
   font: menu;
 }
 
-textarea, input, div, button { outline: none; }
+textarea, input, div, canvas, button { outline: none; }
 
   .controls {
     background-color: rgb(217, 241, 238);
