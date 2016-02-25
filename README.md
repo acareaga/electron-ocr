@@ -2,7 +2,7 @@
 
 ## Description
 
-The `electron-ocr` module provides an easy to use Optical Character Recognition library with Electron applications.
+The `electron-ocr` module provides an easy to use Optical Character Recognition library with Electron applications by leveraging the [Ocrad.js](https://github.com/antimatter15/ocrad.js/) library.
 
 ## Installation
 
@@ -17,7 +17,7 @@ npm install electron-ocr
 Initialize the OCR library:
 
 ```
-ocr.set
+ocr.set();
 ```
 
 ## Dependencies
@@ -25,7 +25,8 @@ ocr.set
 Uses with the following versions:
 
 ```
-"unique-random-array": "1.0.0",
+"jquery": "^2.2.0",
+"ocrad.js": "0.0.1"
 ```
 
 ## Built with `electron-ocr`
