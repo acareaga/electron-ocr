@@ -12,6 +12,14 @@ With [npm](https://www.npmjs.com/) do:
 npm install electron-ocr
 ```
 
+Or, clone repository and install dependencies:
+
+```
+$ git clone git@github.com:acareaga/electron-ocr.git
+$ cd electron-ocr
+$ npm install
+```
+
 ## Usage
 
 Initialize the OCR library:
