@@ -12,6 +12,11 @@ html, body {
   box-sizing: inherit;
 }
 
+h1 {
+  margin: 25px;
+  padding: 25px;
+}
+
 body {
   margin: 0;
   padding: 0;
